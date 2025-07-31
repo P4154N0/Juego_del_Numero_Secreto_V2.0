@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>JS Game by P4154N0</title>
+    </head>
+
+    <body>
+
+        <header class="encabezado">
+            <div class="usuario" id="usuario">
+                Usuario: &nbsp
+                <p id="user"></p>
+            </div>
+            
+            <div class="monedas">
+                Monedas: &nbsp
+                <img src="./img/moneda.png" alt="Moneda" class="moneda__icono">
+                <span id="cantidadMonedas"></span>
+            </div>
+        </header>
+
+        <div class="container">
+            <div class="container__contenido">
+                <div class="container__informaciones">
+                    <div class="container__texto">
+                        <h1></h1>
+                        <h3 class="texto__parrafo"></h3>
+                    </div>
+                    <input type="number" id="valorDelUsuario" min="1" max="10" class="container__input">
+                    <div class="chute container__botones">
+                        <button onclick="verificarIntento();" class="container__boton" id="intentar">Intentar</button>
+                        <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo juego</button>
+                    </div>
+                </div>
+                <img src="./img/ia.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
+            </div>
+        </div>
+
+        <footer class="footer">
+            Developed 💻 by a
+            <a href="https://www.linkedin.com/in/hector-pablo-graff/" target="_blank" rel="noopener noreferrer">
+                <strong>P4154N0</strong>
+            </a>
+            from 🇦🇷 who takes 🧉 | for OracleNextEducation - AluraLatam - ONEG9
+        </footer>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
