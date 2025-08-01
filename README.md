@@ -55,6 +55,7 @@ Esta versión 2.0 no es solo una simple actualización; es una **reinvención** 
 3.  **Abre el archivo `index.html`:** Si clonaste el repositorio, haz doble clic en este archivo.
 4.  **Ingresa tu Nombre:** El juego te pedirá tu nombre al inicio.
 5.  **¡Adivina el Número!** Sigue las pistas y administra tus monedas para ganar.
+6.  Otra forma es correrlo online! - Sitio activo en https://p4154n0.github.io/Juego_del_Numero_Secreto_V2.0/
 
 ---
 
